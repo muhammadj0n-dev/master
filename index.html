@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- boX-icon form UI icons -->
+     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- swiper for carousel -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container m-auto">
+        <nav class="nav_top flex gap-[576px] mt-3 items-center">
+            <p>Welcome to worldwide Megamart!</p>
+            <div class="navt_top-right flex gap-[32px] items-center">
+                <div class="navt_top-right_delivary flex items-center gap-1">
+                    <box-icon name='location-plus' color='#008ecc' ></box-icon>
+                    <p>Deliver to 423651</p>
+                </div>
+                <div class="navt_top-right_track flex items-center gap-2">
+                    <box-icon name='truck' type='solid' color='#008ecc' ></box-icon>
+                    <p>Track your order</p>
+                </div>
+                <div class="navt_top-right_all flex items-center gap-2">
+                    <img src="./assets/images/Discount.svg" alt="discount">
+                    <p>All Offers</p>
+                </div>
+
+            </div>
+        </nav>
+
+        <nav class="nav_bottom flex items-center mt-[21px] mb-3 border-b h-[90px]" >
+            <div class="logo flex items-center mr-[256px] ">
+                <a href=""  class="flex items-center gap-4"><img src="./assets/images/Group 2.png" alt="">
+                <img src="./assets/images/MegaMart.svg" alt=""></a>
+            </div>
+
+            <div class="search flex items-center rounded-[10px]  mr-[30px] w-[507px] h-[48px]">
+                <img src="./assets/images/Search (2).svg" alt="" class="mr-2">
+                <input type="text" placeholder="Search essentials, groceries and more..." class="mr-[176px] w-[300px] outline-none">
+                <img src="./assets/images/list.svg" alt="">
+            </div>
+            <div class="user flex gap-[40px]">
+                <div class="signin flex items-center gap-2">
+                    <img src="./assets/images/user.svg" alt="user">
+                    <p>Sign Up/Sign In</p>
+                </div>
+                <div class="buy flex items-center gap-1">
+                    <img src="./assets/images/Buy.svg" alt="user">
+                    <p>Cart</p>
+                </div>
+            </div>
+           
+        </nav>
+            
+      
+        </div>
+    </header>
+
+
+    <main>
+        
+    <section id="section1">
+        <div class="container m-auto">
+            <ul class="section1_list flex gap-2 justify-between items-center ">
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Groceries <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Premium Fruits <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Home & Kitchen <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Fashion <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Electronics <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Beauty <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Home Improvement <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+                <li><a href="#" class="flex items-center px-[15px] py-[5px]">Sports, Toys & Luggage <box-icon name='chevron-down' color='#030303' ></box-icon></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="section-2 mt-[100px]">
+        <div class="container mx-auto">
+            <div id="carouselExampleControls" class="carousel slide mt-[20px]" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/Rectangle 5.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/Rectangle 5.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/Rectangle 5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <div class="container mx-auto">
+            <div class="cards_title flex justify-between mt-[121px] items-center">
+                <div class="cards_title-item flex mr-[740px] border-b-[3px] border-b-[#008ECC] h-[60px] w-[1000px] items-center">
+                    <!-- <h1 class="mr-[8px] text-[#666] text-2xl font-bold not-italic leading-7 flex items-center  ">Grab the best deal on</h1> -->
+                    <span class="text-[#008ECC] text-2xl font-bold not-italic leading-7">Smartphones</span>
+                </div>
+                <div class="select flex gap-2">
+                    <select name="Brandlar" id="brand" class="border-black text-base font-semibold">
+                        <option selected disabled >Brandni tanlang</option>
+                    </select>
+                    <select name="Price" id="category" class="border-black text-base font-semibold">
+                        <option value="category">Categories</option>
+                    </select>
+                    <select name="Brandlar" id="letter" class="border-black text-base font-semibold">
+                        <option value="Aa-Zz" >Aa-Zz</option>
+                        <option value="Zz-Aa" >Zz-Aa</option>
+                    </select>
+                </div>
+               
+            </div>
+            <div class="section-2_wrapper  flex mt-[40px] justify-evenly flex-wrap gap-[20px]">
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="section-4 ">
+        <div class="container">
+            <div class="cards_title flex justify-between mt-[121px]">
+                <div class="cards_title-item flex mr-[740px] border-b-[3px] border-b-[#008ECC] h-[60px] items-center">
+                    <h1 class="mr-[8px] text-[#666] text-2xl font-bold not-italic leading-7 flex items-center  ">Grab the best deal on</h1>
+                    <span class="text-[#008ECC] text-2xl font-bold not-italic leading-7 ">Smartphones</span>
+                </div>
+                <p class="flex items-center text-[#222]  text-[16px] not-italic font-medium leading-4 ">View All <box-icon name='chevron-right' color='#030303' ></box-icon></p>
+            </div>
+            <div class="cards">
+                <div class="card w-[132px] h-[172px] mt-[40px]">
+                    <div class="phone_img">
+                        <img src="./assets/images/image 3 (1).svg" alt="" class="w-[52px] h-[98px] ml-[40px] mt-[17px] mb-[57px]">
+                    </div>
+                    <p class="text-center text-[#222]  text-[16px] not-italic font-semibold leading-4">Mobile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-4">
+        <div class="container">
+            <div class="cards_title flex justify-between mt-[121px]">
+                <div class="cards_title-item flex mr-[740px] border-b-[3px] border-b-[#008ECC] h-[60px] items-center">
+                    <h1 class="mr-[8px] text-[#666] text-2xl font-bold not-italic leading-7 flex items-center">TOP</h1>
+                    <span class="text-[#008ECC] text-2xl font-bold not-italic leading-7 ">Electronics Brands
+                    </span>
+                </div>
+                <p class=" flex items-center text-[#222]  text-[16px] not-italic font-medium leading-4">View All <box-icon name='chevron-right' color='#030303' ></box-icon></p>
+            </div>
+            <div class="card_top_img my-[40px]">
+                <img src="./assets/images/Rectangle 14 (5).png" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section-5">
+        <div class="container">
+            <div class="cards_title flex justify-between mt-[121px]">
+                <div class="cards_title-item flex mr-[740px] border-b-[3px] border-b-[#008ECC] h-[60px] items-center">
+                    <h1 class="mr-[8px] text-[#666] text-2xl font-bold not-italic leading-7 flex items-center">TOP</h1>
+                    <span class="text-[#008ECC] text-2xl font-bold not-italic leading-7 ">Electronics Brands
+                    </span>
+                </div>
+                <p class=" flex items-center text-[#222]  text-[16px] not-italic font-medium leading-4">View All <box-icon name='chevron-right' color='#030303' ></box-icon></p>
+            </div>
+            <div class="cards w-[217px] h-[217px] mt-[40px] ">
+                <div class="card w-[187px] h-[187px] pt-[20px] pb-[32px]">
+                    <img src="./assets/images/41624-7-groceries-hd-download-hd-png 1.png" alt="">
+                </div>
+                <div class="card_title column items-center justify-center">
+                    <p class="text-center text-[16px] not-italic font-semibold leading-5">Daily Essentials</p>
+                <h1 class="text-center text-[20px] not-italic font-bold leading-5 ">UP to 50% OFF</h1>
+                </div>   
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+    <footer>
+        <section id="section-6 ">
+            <div class="container">
+                <div class="footer flex">
+                    <ul class="mt-[80px] gap-5 ">
+                        <a href="" class=""><img src="./assets/images/MegaMart (1).svg" alt=""></a>
+                        <h1 class="text-[20px] mt-[20px] not-italic font-semibold leading-5">Contact Us</h1>
+                        <li class="flex items-center">
+                            <img src="./assets/images/ant-design_whats-app-outlined.svg" alt="">
+                            <a href="#" class="gap-5">
+                            <p>Whats App</p>
+                            <span>+1 202-918-2132</span>
+                        </a></li>
+                        <li class="flex items-center">
+                            <img src="./assets/images/Call.png" alt="" class="w-[24px] h-[24px]">
+                            <a href="#" class="gap-5">
+                            <p>Call Us</p>
+                            <span>+1 202-918-2132</span>
+                        </a></li>
+                        <div>
+                            <img src="./assets/images/image 11.png" alt="">
+                            <img src="./assets/images/image 10.png" alt="">
+                        </div>
+                    </ul>
+                   
+                    <div class="footer-wrapper flex mt-[80px]">
+                       
+                        <ul>
+                            <h1>Most Popular Categories</h1>
+                            <li>Staples</li>
+                            <li>Beverages</li>
+                            <li>Personal Care</li>
+                            <li>Home Care</li>
+                            <li>Baby Care</li>
+                            <li>Vegetables & Fruits</li>
+                            <li>Snacks & Foods</li>
+                            <li>Snacks & Foods</li>
+                        </ul>
+                        <ul>
+                            <h1>Customer Services</h1>
+                            <li>About Us</li>
+                            <li>Terms & Conditions</li>
+                            <li>FAQ</li>
+                            <li>Privacy Policy</li>
+                            <li>E-waste Policy</li>
+                            <li>
+                                Cancellation & Return Policy</li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <p class=" m-auto">© 2022 All rights reserved. Reliance Retail Ltd.</p>
+    </footer>
+
+    
+</body>
+<script src="./utils.js"></script>
+<script src="./product.js"></script>
+<script src="./index.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
